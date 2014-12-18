@@ -1,0 +1,221 @@
+body, html{
+	margin:0;
+	height:100%;
+	color:white;
+	background-color:#191919;
+	font-family:'Geometria-Light';
+	padding-left:25px;
+}
+
+.prototypeWrapper{
+	margin-top: 35px;
+	display: inline-block;
+	width: 1300px;
+}
+
+h1{
+	-webkit-margin-before: 0em;
+}
+
+
+/*------------------------------------------  PROTOTYPE 01  ---------------------------------------*/
+.bar{
+    background-color: #efefef ;
+    color:#191919;
+    margin-bottom: 10px;
+    padding: 10px;
+    width:0px;
+}
+
+#Filters{
+	width:100%;
+	float:left;
+	margin-bottom:40px;
+}
+
+#Filters label{
+	vertical-align:2px;
+}
+
+.filter{
+	float:left;
+	padding:8px;
+	border: 1px solid #efefef;
+}
+
+#visualizations{
+	float:left;
+	width:1065px;
+	
+}
+
+#visualizations div{
+	float:left;
+	width:355px;
+	
+}
+
+.visualization{
+	float:left;
+}
+  
+#errorHandling, #info{
+	float:left;
+	width:100%;
+}
+
+
+
+
+/*-------------------------------- PROTOTYPE 02 ------------------------------------------*/
+#proto2 #divorces{
+	width:200px;
+	float:left;
+}
+
+
+
+/* RADIAL */
+#proto2 #divorces .background {
+    fill: #FFFFFF;
+    fill-opacity: 0;
+}
+
+#proto2 #divorces .component {
+    fill: #1D1D1D;
+}
+
+#proto2 #divorces .component .label {
+    text-anchor: middle;
+    fill: #0000FF;
+}
+
+#proto2 #divorces .label {
+    font-size:40px;
+    text-anchor: middle;
+}
+
+#proto2 #divorces .percentageCharacter{
+	font-size:25px;
+}
+
+
+/* MENU */
+#proto2{
+	width:300px;
+	float:left;
+}
+
+#proto2 #menu{
+	float:left;
+	width:75px;
+	margin-top:13px;
+}
+
+#proto2 #menu div{
+	cursor:pointer;
+}
+
+#proto2 #menu div:hover{
+	cursor:pointer;
+	background-color: #a6002e;
+}
+
+#proto2 .filterYear{
+	width:60px;
+	padding:5px;
+	margin-top:5px;
+	background-color: #f6f6f6;
+	color:#131313;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+}
+
+
+#proto2 p{
+	width:300px;
+	margin-top:10px;
+	display:inline-block;
+}
+
+a{
+	color: #a6002e;
+}
+
+
+.info{
+	display:inline;
+}
+
+
+
+/*------------------------------------------  PROTOTYPE 03  ---------------------------------------*/
+
+#proto3{
+	width:420px;
+	float:left;
+	margin-top:-60px;
+	margin-left:400px;
+}
+
+#proto3 #menu{
+	float:left;
+	width:75px;
+	margin-top:13px;
+	margin-left:25px;
+}
+
+#proto3 .filterDrug{
+	width:70px;
+	padding:5px;
+	margin-top:5px;
+	background-color: #f6f6f6;
+	color:#131313;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+}
+
+#drugs{
+	float:left;
+}
+#proto3 #menu div{
+	cursor:pointer;
+}
+
+#proto3 #menu div:hover{
+	cursor:pointer;
+	background-color: #a6002e;
+}
+
+
+#proto3 p{
+	width:300px;
+	margin-top:10px;
+	display:inline-block;
+}
+
+#proto3 .legend{
+	margin-left:130px;
+	margin-top:130px;
+	position:absolute;
+	text-align:center;
+	font-size:10px;
+}
+
+#proto3 .man{
+	background-color: #a6002e;
+	width:40px;
+	padding:5px;
+}
+
+#proto3 .vrouw{
+	width:40px;
+	padding:5px;
+	background-color: #f35000;
+}
+
+
+
+
